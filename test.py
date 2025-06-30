@@ -17,7 +17,9 @@ class Pers(Test):
         super().__init__('Asan', 23)
 
 
-p = Person()
-a = Pers()
-print(p.info())
-print(a.info())
+class My(Test):
+    def __init__(self):
+        super().__init__('Abubakir',18)
+
+
+
