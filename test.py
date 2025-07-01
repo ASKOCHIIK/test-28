@@ -19,4 +19,19 @@ class Dog(Test):
     def __init__(self):
         super().__init__("artosh", 3)
 
+class Person(Test):
+    def __init__(self):
+        super().__init__('Доолот', 22)
+
+
+class Pers(Test):
+    def __init__(self):
+        super().__init__('Asan', 23)
+
+
+class My(Test):
+    def __init__(self):
+        super().__init__('Abubakir',18)
+
+
 
